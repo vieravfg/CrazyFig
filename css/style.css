@@ -96,3 +96,14 @@ footer {
     padding: 10px 0;
     border-top: 2px solid #b07f5a;
 }
+
+/* Additional Fixes or Enhancements */
+/* Ensure all links have consistent styling */
+a {
+    color: #4b3f39;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
