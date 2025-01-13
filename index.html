@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Cozy Poetry Corner</title>
+    <title>My Poetry Haven</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather&family=Dancing+Script&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>My Cozy Poetry Corner</h1>
+        <h1>My Poetry Haven</h1>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="mypoems">My Poems</a></li>
-                <li><a href="favorite">Favorite Poems</a></li>
-                <li><a href="mispoemas.html">Mis Poemas</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="contact">Contact</a></li>
+                <li><a href="#poems">My Poems</a></li>
+                <li><a href="#favorites">Favorite Poems</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -25,34 +24,33 @@
     <main>
         <section class="hero">
             <blockquote>
-                <p>"Poetry is when an emotion has found its thought and the thought has found words."</p>
+                <p>"A poem begins as a lump in the throat, a sense of wrong, a homesickness, a lovesickness."</p>
                 <footer>&mdash; Robert Frost</footer>
             </blockquote>
         </section>
 
-        <section>
+        <section id="poems" class="content">
             <h2>Recent Poems</h2>
-            <article>
-                <h3>My Keeper</h3>
-                <p>I surrender to you like a wounded bird...</p>
-                <a href="poems/love/my_keeper.html">Read More</a>
-            </article>
-
-            <article>
-                <h3>Whispers in the Breeze</h3>
-                <p>Be free, my darling. Be free and renounce the world...</p>
-                <a href="poem2">Read More</a>
-            </article>
+            <div class="poems-grid">
+                <article>
+                    <h3>My Keeper</h3>
+                    <p>I surrender to you like a wounded bird...</p>
+                    <a href="poems/love/my_keeper.html">Read More</a>
+                </article>
+                <article>
+                    <h3>Whispers in the Breeze</h3>
+                    <p>Be free, my darling. Be free and renounce the world...</p>
+                    <a href="poem2">Read More</a>
+                </article>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 My Cozy Poetry Corner</p>
+        <p>&copy; 2024 My Poetry Haven</p>
         <p>
-            <a href="https://www.instagram.com/thecrazyfigs/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/thecrazyfigs/" target="_blank" aria-label="Visit our Instagram"><i class="fab fa-instagram"></i></a>
         </p>
     </footer>
-
-    <script src="js/script.js"></script>
 </body>
-</html> 
+</html>
