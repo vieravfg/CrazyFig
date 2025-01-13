@@ -63,7 +63,6 @@ nav ul li a:hover {
 .hero blockquote {
     font-family: 'Dancing Script', cursive; /* Less slanted cursive font */
     font-size: 1.8rem;
-    font-style: normal; /* Removes heavy slant */
     line-height: 1.6;
     color: #2c3e50;
     text-align: center;
