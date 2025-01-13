@@ -3,14 +3,12 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #f0f8fc; /* Very light blue */
-    /* For pink: #fdf6f9 */
     color: #2c3e50; /* Deep blue-gray for contrast */
 }
 
 /* Header */
 header {
     background: linear-gradient(90deg, #92c9f0, #a8d1f7); /* Soft blue gradient */
-    /* For pink: #f7c4d8, #f8d6e3 */
     color: #fff;
     padding: 1.5rem 2rem;
     text-align: center;
@@ -47,11 +45,11 @@ nav ul li a:hover {
     background: #4a90e2; /* Soft blue background on hover */
     color: #ffffff; /* White text on hover */
 }
+
 /* Hero Section */
 .hero {
     text-align: center;
     background: linear-gradient(135deg, #a8d1f7, #d4ebf9); /* Light blue tones */
-    /* For pink: #f8d6e3, #fbeaf1 */
     color: #fff;
     padding: 4rem 2rem;
     border-radius: 20px;
@@ -59,7 +57,6 @@ nav ul li a:hover {
     max-width: 800px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     border-left: 6px solid #4a90e2; /* Accent blue border */
-    /* For pink: #f47da5 */
 }
 
 .hero blockquote {
@@ -95,12 +92,15 @@ h2 {
 }
 
 article a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #f47da5; /* Soft pink */
     background: transparent;
-    color: #f47da5; /* Soft pink for article links */
     border: 1px solid #f47da5;
-    padding: 5px 10px; /* Adds space for consistency */
+    padding: 0.5rem 1rem;
     border-radius: 8px; /* Rounded edges */
-    font-weight: normal;
+    text-decoration: none;
+    font-weight: bold;
     transition: background 0.3s ease, color 0.3s ease;
 }
 
@@ -108,6 +108,7 @@ article a:hover {
     background: #f47da5; /* Soft pink background on hover */
     color: #ffffff; /* White text on hover */
 }
+
 article h3 {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
@@ -120,28 +121,10 @@ article p {
     color: #666;
 }
 
-article a {
-    display: inline-block;
-    margin-top: 1rem;
-    color: #6a5acd;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    border: 1px solid #6a5acd;
-    transition: background 0.3s ease, color 0.3s ease;
-}
-
-article a:hover {
-    background: #6a5acd;
-    color: #fff;
-}
-
 /* Footer */
 footer {
     text-align: center;
     background: #92c9f0; /* Soft blue */
-    /* For pink: #f7c4d8 */
     color: #fff;
     padding: 1.5rem 0;
     margin-top: 2rem;
@@ -162,5 +145,3 @@ footer a {
 footer a:hover {
     color: #b2a4ff;
 }
-
-
