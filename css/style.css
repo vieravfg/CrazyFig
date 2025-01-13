@@ -153,12 +153,59 @@ ul {
 }
 /* POEMS PAGE */
 
-.poems-page h3 {
-    font-family: 'Merriweather', serif;
-    color: #4a90e2; /* Soft blue for category headings */
-    font-size: 1.8rem; /* Adjust size for better readability */
-    margin-bottom: 10px;
-    text-align: left; /* Keep alignment consistent */
+.poems-page .poems-categories {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.poems-page .poems-grid {
+    display: flex;
+    justify-content: space-around; /* Distribute categories evenly */
+    align-items: flex-start;
+    gap: 2rem; /* Add spacing between categories */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.poems-page .category {
+    background: #f0f8fc; /* Light background */
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    flex: 1; /* Make all columns equal width */
+    max-width: 300px; /* Optional: set a max width for categories */
+}
+
+.poems-page .category h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #4a90e2; /* Soft blue for headings */
+}
+
+.poems-page .category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.poems-page .category ul li {
+    margin-bottom: 0.5rem;
+}
+
+.poems-page .category ul li a {
+    background: #4a90e2; /* Soft blue button style */
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+.poems-page .category ul li a:hover {
+    background: #2c3e50; /* Darker hover effect */
 }
 
 /* Footer */
