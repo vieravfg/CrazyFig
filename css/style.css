@@ -128,6 +128,39 @@ article p {
     color: #666;
 }
 
+ul li a {
+    background-color: #4a90e2; /* Soft blue background */
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Add spacing for button effect */
+    display: inline-block; /* Makes it appear as a button */
+    margin: 5px 0; /* Add space between links */
+    border-radius: 8px; /* Rounded corners */
+    font-family: 'Merriweather', serif; /* Keep a nice readable font */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+ul li a:hover {
+    background-color: #3a78c2; /* Slightly darker blue on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Adjust list styling */
+ul {
+    padding: 0;
+    list-style-type: none; /* Remove bullet points */
+    margin: 10px 0;
+}
+/* POEMS PAGE */
+
+.poems-page h3 {
+    font-family: 'Merriweather', serif;
+    color: #4a90e2; /* Soft blue for category headings */
+    font-size: 1.8rem; /* Adjust size for better readability */
+    margin-bottom: 10px;
+    text-align: left; /* Keep alignment consistent */
+}
+
 /* Footer */
 footer {
     text-align: center;
