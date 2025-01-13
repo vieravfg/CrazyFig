@@ -1,9 +1,19 @@
 /* General Reset */
 body {
     margin: 0;
+    height: 100%;
     font-family: 'Merriweather', serif;
     background-color: #f0f8fc; /* Very light blue */
     color: #2c3e50; /* Deep blue-gray for contrast */
+    display: flex;
+    flex-direction: column;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header */
@@ -207,14 +217,19 @@ ul {
 .poems-page .category ul li a:hover {
     background: #2c3e50; /* Darker hover effect */
 }
-
+/* The container holds the main content and pushes the footer down */
+.page-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
 /* Footer */
 footer {
+    margin-top: auto;
     text-align: center;
     background: #92c9f0; /* Soft blue */
     color: #fff;
     padding: 1.5rem 0;
-    margin-top: 2rem;
     border-radius: 30px 30px 0 0; /* Rounded top corners */
 }
 
