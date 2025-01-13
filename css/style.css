@@ -61,10 +61,13 @@ nav ul li a:hover {
 }
 
 .hero blockquote {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Merriweather', serif; /* Elegant serif font */
     font-size: 1.8rem;
     font-style: italic;
     margin: 0;
+    line-height: 1.6; /* Increases readability */
+    color: #2c3e50; /* Softer contrast */
+    text-align: center;
 }
 
 .hero footer {
